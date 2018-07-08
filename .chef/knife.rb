@@ -7,3 +7,4 @@ node_name                "mmahadeokar"
 client_key               "#{current_dir}/mmahadeokar.pem"
 chef_server_url          "https://mmahadeokar4.mylabserver.com/organizations/manishorg"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+knife[:editor]="/bin/vim"
